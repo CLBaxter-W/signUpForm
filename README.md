@@ -2,6 +2,10 @@
 
 Block 27 Sign Up form
 
+//*** deployed application ***/
+
+https://relaxed-platypus-a4ed27.netlify.app
+
 /**************\*\***************\***************\*\***************/
 
 -- Created local git repository, with skeleton project
