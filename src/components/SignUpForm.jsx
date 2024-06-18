@@ -32,9 +32,10 @@ export default function SignUpForm({ token, setToken }) {
   return (
     <div>
       <h4>Please create a username and password.</h4>
-      <h6 width="10vw">
+      <h6>
         username and password must be at least 5 characters and no more than 10
       </h6>
+      <h6>Both fields are required - Thank you!</h6>
 
       {error && <p>{error}</p>}
 
@@ -49,7 +50,6 @@ export default function SignUpForm({ token, setToken }) {
               placeholder="username"
               required
               minLength="5"
-              maxLength="10"
             />
           </label>
           <br />
