@@ -1,0 +1,59 @@
+.windowDiv {
+  background-color: lightcyan;
+  border: 1vh dotted darkblue;
+  padding: 2vh 2vw 2vh 2vw;
+  max-width: 60vw;
+  max-height: 90vh;
+}
+
+.headerDiv {
+  font: 1em sans-serif;
+  max-height: 5vh;
+  min-height: 5vh;
+  border-top: 0vh;
+  border-right: 0vh;
+  border-left: 0vh;
+
+  border-bottom: 2vh;
+  border-color: darkblue;
+  border-style: groove;
+}
+
+hr {
+  border-bottom: 1vh;
+  border-color: darkblue;
+  border-style: groove;
+}
+
+.signupDiv {
+  max-height: 50vh;
+  min-height: 50vh;
+  padding: 1.5em;
+  overflow-x: auto;
+}
+
+.authenticateDiv {
+  max-height: 30vh;
+  min-height: 30vh;
+  padding: 1.5em;
+  overflow-x: auto;
+}
+
+label {
+  size: 20px;
+}
+
+input {
+  size: 40px;
+
+  margin: 10px 10px 10px 10px;
+}
+
+/* borrowed from https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation */
+input:invalid {
+  border: 2px solid rgb(130, 233, 56);
+}
+
+input:valid {
+  border: 2px solid black;
+}
